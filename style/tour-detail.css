@@ -1,0 +1,32 @@
+.tab-booking .tab-content{
+    padding:2rem 2rem;
+    border: 1px solid #ccc;
+    border-top:0;
+    margin-bottom: 2rem;
+}
+.tab-content ul li{
+    list-style: disc;
+}
+.tab-content ul{
+    padding-left:2rem;
+}
+.tab-content{
+    background: #f8f8f8;    
+}
+.tab-booking li.active a{
+    background: #f8f8f8;
+}
+.wp-tour{
+    background:#fff;
+    padding:2rem;
+    margin-bottom: 2rem;
+}
+.wp-in-tour td{
+    padding:1rem 1.5rem;
+}
+.wp-in-tour:hover{
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.9);
+}
+#detail a{
+    text-decoration: none;
+}

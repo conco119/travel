@@ -1,0 +1,116 @@
+@media screen and (min-width:998px){
+#main{margin: 0; padding: 0;}
+.row{margin-left: 0px; margin-right: 0px;}
+.bl-right{margin-top: 2.2em; margin-left: -1em;}
+.bl-right h4 a{ color:#d17072;}
+.bl-left{margin-top: 3em;}
+.box-right{margin-top: 2.5em;}
+.out-right{border-bottom:4px solid #d17072;  width: 10em; position: relative; bottom: -2px;}
+.out-right1{width: 15em; position: relative; bottom: -2px;}
+.out-right2{width: 20em; position: relative; bottom: -2px;}
+.out-right3{width: 23em; position: relative; bottom: -2px;}
+.right-ct{margin-top:2em;}
+.right-ct span{ color:#ff0000; font-size: 17px;}
+/* silder*/
+.silder{margin-top: 2em; position: relative;}
+.silder .prev{margin-top: -5.5em; position: absolute; margin-left: -12.5em;}
+.silder .next{margin-top: -5.5em; position: absolute; margin-left: 12.5em;}
+.h6{font-size: 20px;}
+.price-right{font-size: 20px;}
+.font-slider{margin-bottom: -40px;}
+
+.silder .customNavigation{text-align: center;}
+.silder .customNavigation a{
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+/*pavigation*/
+.pa {margin-top:50px; margin-left: -300px;}
+.pagination li a{border: 1px solid #bb2d30;}
+
+/*du lich trong nuoc*/
+.travel{position: relative; text-align: center;}
+.breadcrumb{position: absolute; margin-top: -11em; left:40%; background: none;color:#fff;}
+.breadcrumb a{color: #fff; font-size:1.25em; opacity: 0.9; font-weight: 300; }
+.breadcrumb a:hover{color: #fff;}
+.breadcrumb p{color: #fff; font-size:3em;margin-left: -1em;}
+/*content*/
+.catagory{margin-top: 3%; position: relative;}
+.catagory .chua{left: 0;}
+.cata1 .img-star {position: absolute;left: 9%; top: 0%;}
+
+.cata2 h6 a{ color: #bb2d30; font-size: 1.7rem;}
+.cata2 p{ color: #bb2d30; font-size: 1.3rem;}
+.cata2 ul li {float: left; margin-left: 2rem; border-radius: 5px; background-color: #cccccc; padding-top: 5px; padding-left: 10px; padding-right: 10px; padding-bottom: 5px;}
+.cata2 ul{margin-left: -2rem;}
+.cata2 a{margin-top: 2%;}
+/*end dulichtrong nuoc*/
+
+/* start booking*/
+ .bl-right .h3{color:blue;}
+ .infor-booking{margin-top: 2em;}
+ .infor-booking1{margin-top: 2em;}
+ .infor1-highligh{margin-left: 1em; margin-top: 14em;}
+ .infor1-content{margin-top: 2em;}
+ .infor1-note{border-bottom: 1px solid #cccccc; margin-left: 1em; margin-top: 2em; }
+ .info1-price{margin-top: 2em; margin-left: 1em;}
+ .info1-price:hover{   box-shadow: 0px 0px 2px 2px;
+    -moz-box-shadow: 0px 0px 2px 2px;
+    -webkit-box-shadow: 0px 0px 2px 2px;
+    -o-box-shadow: 0px 0px 2px 2px;
+    -ms-box-shadow: 0px 0px 2px 2px;}
+    .infor1-inlcu1{margin-top: 2em; margin-left: 1em;}
+    .infor1-notinlcu{margin-top: 7em; margin-left: 1em;margin-bottom: 5em;}
+    .infor1-notinlcu ul li a{background-color: #cccccc; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px; border-radius: 5px;}
+    .infor1-notinlcu ul li a:hover{background-color:#FFCC00; }
+}
+	
+
+
+
+
+/*code cho dien thoai*/
+@media screen and (max-width:768px){
+.sidebar{display: none;}
+.bl-right h4 a{font-size: 17px; margin-left: 2em; padding-top: -1em;}
+.add{margin-left: 2em;}
+/*navigation*/
+.nav{margin-top:50px;}
+.pagination li a{border: 1px solid #bb2d30;}
+
+/*du lich trong nuoc*/
+
+.travel{position: relative; text-align: center;}
+.breadcrumb{position: absolute; margin-top: -11em; left:40%; background: none;color:#fff;}
+.breadcrumb a{color: #ff0000;  font-size: 20px !important; padding-top: 40%;}
+.breadcrumb-item{padding-top: 50%; font-size: 10px !important;}
+.breadcrumb a:hover{color: #fff;}
+.breadcrumb p{color: #ff0000;  margin-top: 40%; font-size:10px !important; }
+
+.travel{position: relative; text-align: center;}
+.breadcrumb{position: absolute;color:#fff;}
+.breadcrumb a{color: #fff; font-size:1.25em;}
+.breadcrumb a:hover{color: #fff;}
+.breadcrumb p{color: #fff; font-size:3em;margin-left: -1em;}
+.content{margin-top: 3em;}
+
+.catagory{margin-top: 3%; position: relative;}
+.catagory .chua{left: 0;}
+.cata1{left: 5%;}
+.cata1 .img-star {position: absolute;left: 9%; top: 0%;}
+
+
+.cata2 h6 a{ color: #bb2d30; font-size: 1.4rem;}
+.cata2 p{color:#bb2d30; font-size: 1.3rem;margin-left: -5px;}
+.cata2 ul li {float: left; margin-left: 2rem; border-radius: 5px; background-color: #cccccc; padding-top: 5px; padding-left: 10px; padding-right: 10px; padding-bottom: 5px;}
+.cata2 ul{margin-left: -1rem;}
+.cata2 a{margin-top: 2%;}
+.btn{width: 100%;}
+/*detail-news*/
+.content_travel{margin-top: 2em;}
+.bl-right h4 a{font-size: 17px; margin-left: -0.2em; color:#bb2d30 !important;}
+}
